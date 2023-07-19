@@ -29,6 +29,19 @@ body {
 	position: relative;
 }
 
+.main-header::after {
+	content: '';
+	z-index: 100;
+	position: absolute;
+	width: 100%;
+	height: calc(var(--index) * 10);
+	background-image: url(/assets/images/img/ground.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	bottom: calc(var(--index) * -4.5);
+}
+
 .layers {
 	height: 100vh;
 	display: flex;
