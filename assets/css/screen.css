@@ -21,7 +21,6 @@
 
 body {
 	background-color: #010101;
-	color: #fff;
 	font-family: raleway_f, sans-serif;
 	line-height: 1.55;
 }
@@ -70,6 +69,8 @@ body {
 	will-change: transform;
 	text-transform: uppercase;
 	font-weight: 900;
+	color: #e7e7e0;
+	text-shadow: 0 0 15px #9e7d35;
 }
 
 .layers__title {
@@ -80,6 +81,7 @@ body {
 .layers__caption {
 	font-size: calc(var(--index) / 1.175);
 	letter-spacing: calc(var(--index) / 3.5);
+	margin-top: calc(var(--index) * -0.75);
 }
 
 .main-article {
